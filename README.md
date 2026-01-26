@@ -1,16 +1,65 @@
-# TBA
+# TBA - Who Murdered Sarah?
 
-Ce repo contient la première version (minimale) du jeu d’aventure TBA.
+## :uk: English
+### About the game
+***Who Murdered Sarah?*** is a detective text-based adventure game following Eric's footsteps to uncover the murder of his wife, Sarah, in the town of Rainhood.
 
-Les lieux sont au nombre de 6. Il n'y a pas encore d’objets ni de personnages autres que le joueur et très peu d’interactions. Cette première version sert de base à ce qui va suivre, et sera améliorée au fur et à mesure.
+Throughout the game, the player will investigate how Sarah was assassinated while uncovering the past of the couple by solving different riddles.
 
+### Game installation
 
-## Structuration
+## 📥 Installation
 
-Il y a pour le moment 5 modules contenant chacun une classe.
+1. **Install Python 3**: Ensure you have Python 3 installed on your machine.
+2. **Download Source**: Download all source files and place them into a single folder.
 
-- `game.py` / `Game` : description de l'environnement, interface avec le joueur ;
-- `room.py` / `Room` : propriétés génériques d'un lieu  ;
-- `player.py` / `Player` : le joueur ;
-- `command.py` / `Command` : les consignes données par le joueur ;
-- `actions.py` / `Action` : les interactions entre .
+---
+
+## 🎮 How to Play
+
+Open your terminal or command prompt within the game folder and execute the command corresponding to your operating system:
+
+### **Windows**
+```bash
+python game.py
+```
+### **macOS/Linux**
+```bash
+python3 game.py
+```
+### ToDo
+
+- Add GUI
+- Automate some setup code
+
+## :fr: Français
+### À propos du jeu
+***Who Murdered Sarah?*** est un jeu d’aventure textuel dans lequel vous suivez les pas d’Eric pour découvrir qui a assassiné sa femme, Sarah, dans la ville de Rainhood.
+
+Au fil du jeu, le joueur devra enquêter sur la mort de Sarah tout en découvrant le passé du couple à travers différentes énigmes.
+
+### Installation du jeu
+
+## 📥 Installation
+
+1. **Installer Python 3** : Assurez-vous que Python 3 est installé sur votre machine.
+2. **Télécharger les sources** : Téléchargez tous les fichiers sources et placez-les dans un seul et même dossier.
+
+---
+
+## 🎮 Comment jouer
+
+Ouvrez votre terminal ou invite de commande à l'intérieur du dossier du jeu et exécutez la commande correspondant à votre système d'exploitation :
+
+### **Windows**
+```bash
+python game.py
+```
+### **macOS/Linux**
+```bash
+python3 game.py
+```
+### ToDo
+
+- Ajouter GUI
+- Automatiser les codes de setup
